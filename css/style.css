@@ -28,6 +28,148 @@
     transition: 0.5s;
     z-index: 99;
 }
+.service {
+    background-color: #D6E4FF!important;
+}
+
+
+.accordion-button {
+    color: #007bff !important; /* Bootstrap primary blue */
+}
+
+/* General styling for the accordion */
+.accordion-item {
+    border: 2px solid #393D72 !important;  /* Blue border */
+}
+
+/* Accordion button default state */
+.accordion-button {
+    color: #393D72 !important;  /* Blue text */
+    background-color: #D0D3F0 !important;  /* Light blue background */
+    border: 2px solid #393D72 !important;
+}
+
+/* Remove pink when active (clicked/opened) */
+.accordion-button:not(.collapsed) {
+    background-color: #9A9FD8 !important;  /* Darker blue */
+    color: white !important;  /* White text */
+    border: 2px solid #393D72 !important;
+}
+
+/* Remove pink on hover */
+.accordion-button:hover,
+.accordion-button:focus,
+.accordion-button:not(.collapsed):hover {
+    background-color: #7F83C9 !important;  /* Even darker blue */
+    color: white !important;
+    box-shadow: none !important;
+}
+
+/* Remove pink when clicking */
+.accordion-button:active {
+    background-color: #9A9FD8 !important;
+    color: white !important;
+    border: 2px solid #393D72 !important;
+}
+
+/* Ensure dropdown (expanded content) stays blue */
+.accordion-collapse {
+    border: 2px solid #393D72 !important;
+    background-color: #EEF0FF !important; /* Light blue */
+}
+
+/* Accordion body styling */
+.accordion-body {
+    background-color: #EEF0FF !important;
+    color: #272B5C !important;
+}
+
+/* Remove any default Bootstrap focus styles */
+.accordion-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.btn-primary:hover {
+    background-color: white !important;
+    color: #4D65F9 !important;
+    border: 2px solid #4D65F9 !important; /* Ensures border remains visible */
+}
+
+.service-item {
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.service-item:hover {
+    background-color: #4D65F9 !important; /* Custom blue */
+    color: white !important; /* Text turns white */
+    border-color: #4D65F9 !important; /* Border matches background */
+}
+
+.service-item:hover a,
+.service-item:hover p,
+.service-item:hover i {
+    color: white !important; /* Change text, icons, and links to white */
+}
+
+.program-text {
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.program-text:hover {
+    background-color: #4D65F9 !important; /* Custom blue */
+    color: white !important; /* Text turns white */
+}
+
+.program-text:hover a,
+.program-text:hover p {
+    color: white !important; /* Change text and links to white */
+}
+
+.blog-content {
+    background-color: #D6E4FF!important; /* Light blue */
+}
+
+.blog-content {
+    background-color: #D6E4FF !important; /* Light blue */
+}
+
+.blog-date-comments,
+.blog-text-inner {
+    background-color: #D6E4FF !important; /* Light blue */
+}
+
+.blog {
+    background-color: #D6E4FF !important; /* Light blue */
+}
+
+.bg-light {
+    background-color: #D6E4FF !important; /* Light blue */
+}
+
+.blog-text-inner a:hover {
+    color:#4D65F9;
+}
+
+.team-content h4,
+.team-content p {
+    transition: color 0.3s ease;
+}
+
+.team-content:hover h4,
+.team-content:hover p {
+    color: blue;
+}
+
+.team-item {
+    transition: color 0.3s ease;
+}
+
+.team-item:hover .team-content h4,
+.team-item:hover .team-content p {
+    color: blue !important;
+}
 
 h1,
 h2,
@@ -179,7 +321,7 @@ h6,
 .navbar .navbar-nav .nav-link.active,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color:  #4d65f9;
 }
 
 .navbar .dropdown-toggle::after {
